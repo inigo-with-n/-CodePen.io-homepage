@@ -1,0 +1,20 @@
+/* Pie de Página */
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-wrapper > .footer-item {
+    flex: 1;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 15px 10px;
+    background-color: #3e4148f3;
+    border: 0.5px solid rgba(255, 255, 255, 0.2) 
+}
+
+.footer-item > .highlight {
+    font-size: 1.8em;
+    font-weight: bold;
+}

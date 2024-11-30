@@ -1,0 +1,138 @@
+.navigation-wrapper {
+    height: 80px;
+    background-color: #040404;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5px 6px 1px 25px;
+    position: relative;
+}
+
+/* Explore */
+.explore {
+    position: absolute;
+    top: -15px; 
+    left: 185px;
+}
+
+.explore span {
+    color: #cea135;
+    font-size: 0.80rem;
+    font-weight: bold;
+}
+
+/* Left */
+.left-column {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+    top: 2px;
+}
+
+.left-column > .icon img {
+    width: 135px;
+    height: auto;
+}
+
+.left-column > .headers {
+    display: flex;
+    gap: 20px;
+    font-size: 1.25rem;
+}
+
+.left-column > .headers a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.left-column > .headers a:hover {
+    color: #cea135;
+}
+
+.left-column > .headers > .spark {
+    display: flex;
+    align-items: center;
+    color: #cbcbcb;
+    font-weight: normal;
+    padding: 0 8px;
+}
+
+.left-column > .headers > .spark i {
+    font-size: 0.8rem; 
+    margin-left: 10px;
+}
+
+
+/* Right */
+.right-column {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.right-column a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.right-column > .create {
+    background-color: #4b4a4a;
+    color: white;
+    padding: 18px 20px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.right-column > .create:hover {
+    background-color: #cbcbcb;
+    color: #222;
+}
+
+.right-column > .create i {
+    font-size: 1.5rem;
+    color: #1cb43e;
+    margin-left: 15px;
+}
+
+.right-column > .login {
+    background-color: #4b4a4a;
+    color: white;
+    padding: 18px 20px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.right-column > .login:hover {
+    background-color: #cbcbcb;
+    color: #222;
+}
+
+.right-column > .signup {
+    background-color: #4b4a4a;
+    color: white;
+    padding: 18px 20px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.right-column > .signup:hover {
+    background-color: #cbcbcb;
+    color: #222;
+}
+
+.right-column > .search i {
+    width: auto; 
+    height: auto;
+    font-size: 25px;
+    color: #868f7a;
+}

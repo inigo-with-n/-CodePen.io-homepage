@@ -1,0 +1,108 @@
+/* Contenido Principal */
+.main-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 20px 0px 20px 40px;
+    color: #c1cbb3;
+    font-size: 0.9em;
+    background: linear-gradient(to bottom right,#4d4b56, #1c1c1c);
+}
+
+.main-wrapper > .main-left,
+.main-wrapper > .main-right {
+    flex: 1;
+    padding: 10px 0px 10px 20px;
+    max-width: 50%;
+    box-sizing: border-box;
+}
+
+/* Izquierda */
+.main-wrapper > .main-left {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+
+}
+
+.main-wrapper > .main-left > .main-phrase {
+    color: rgb(172, 172, 176);
+    font-size: 2.8em;
+    line-height: 1.1; 
+    font-weight: normal;
+}
+
+.bold-highlight {
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.main-wrapper > .main-left > .second-phrase {
+    color: rgb(172, 172, 176);
+    font-size: 2.2em;
+    line-height: 1.45; 
+    font-weight: normal;
+}
+
+.middle-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.middle-buttons a {
+    text-decoration: none;
+    font-size: 2.2rem;
+    padding: 12px 24px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.middle-buttons > .sign-up {
+    background-color: #24d14d;
+    color: black;
+}
+
+.middle-buttons > .learn-more {
+    background-color: #111;
+    color: white;
+}
+
+/* Derecha */
+
+.main-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 0;
+}
+
+
+.main-right > .blue-codepen > .main-title {
+    font-size: 1.5em;
+    color: white;
+    margin-bottom: 2px;
+    font-weight: bold;
+    margin-right: 330px;
+}
+
+.main-title > .highlight {
+    color: rgb(1, 185, 247);
+}
+
+.main-right > .Codepen-img {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.main-right > .Codepen-img >.main-image {
+    width: 85%;
+    border-radius: 8px;
+    margin: 0;
+}
+
+
